@@ -91,7 +91,8 @@ main,
 }
 
 main img {
-    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .product-description {
@@ -150,7 +151,6 @@ button span {
 
 @media (min-width: 801px) {
 
-
     /* LAYOUT */
 
     main {
@@ -163,6 +163,8 @@ button span {
     picture {
         width: 50%;
     }
+
+    main img {    height: 100%;}
 
     .product-description {
         width: 50%;
